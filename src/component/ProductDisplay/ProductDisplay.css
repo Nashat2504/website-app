@@ -1,0 +1,124 @@
+.productdisplay {
+    display: flex;
+    margin: 10px 170px;
+}
+
+.productdisplay-left {
+    display: flex;
+    gap: 17px;
+}
+
+.productdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.productdisplay-img-list img {
+    height: 163px;
+}
+
+.productdisplay-main-img {
+    width: 544px;
+    height: 690px;
+}
+
+.productdisplay-right {
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right h1 {
+    color: #FFD700; /* لون ذهبي لإبراز العنوان */
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.productdisplay-right-stars {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 5px;
+    color: #8B0000; /* لون أحمر غامق مثل الناف بار */
+    font-size: 16px;
+}
+
+.productdisplay-right-prices {
+    display: flex;
+    align-items: center;
+    margin: 40px 0px;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.productdisplay-right-prices-old {
+    color: #A52A2A; /* بني غامق يناسب الأحمر التدريجي */
+    font-size: 30px;
+    text-decoration: line-through;
+}
+
+.productdisplay-right-description {
+    font-size: 20px;
+    color: #8B0000; /* لون متناسق مع الناف بار */
+}
+
+.productdisplay-right-prices-new {
+    color: #B22222; /* أحمر داكن */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productdisplay-right-size h1 {
+    margin-top: 55px;
+    color: #DC143C; /* لون كرزي */
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.productdisplay-right-sizes {
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+
+.productdisplay-right-sizes div {
+    font-size: large;
+    padding: 18px 24px;
+    background: #FFDAB9; /* بيج فاتح يوازن الأحمر الغامق */
+    border: 1px solid #B22222;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.productdisplay-right-sizes div:hover {
+    background-color: #8B0000;
+    color: white;
+}
+
+.productdisplay-right button {
+    padding: 20px 40px;
+    width: 280px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #8B0000; /* لون أحمر غامق */
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.productdisplay-right button:hover {
+    background-color: #5A0000; /* درجة أغمق من الأحمر */
+}
+
+.productdisplay-right-category {
+    margin-top: 10px;
+}
+
+.productdisplay-right-category span {
+    font-weight: 600;
+    color: #8B0000;
+}

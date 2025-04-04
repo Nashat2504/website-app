@@ -1,0 +1,44 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* زيادة العتمة لتوضيح التباين */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #FFD700; /* لون ذهبي لمطابقة التصميم */
+}
+
+button {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.take-photo {
+  background-color: #8B0000; /* أحمر غامق متناسق مع الناف بار */
+  color: white;
+}
+
+.take-photo:hover {
+  background-color: #600000; /* لون أغمق عند التحويم */
+}
+
+.upload-image {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #FFD700; /* حدود ذهبية لمظهر فاخر */
+}
+
+.upload-image:hover {
+  background-color: #FFD700; /* ذهبي عند التحويم */
+  color: black;
+}

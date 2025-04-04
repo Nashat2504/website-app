@@ -1,0 +1,53 @@
+.shopcategory-banner {
+  display: block;
+  margin: 30px auto;
+  width: 82%;
+}
+
+.shopcategory-indexSort {
+  display: flex;
+  margin: 0px 170px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shopcategory-sort {
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: 1px solid #A52A2A; /* تعديل اللون ليتناسب مع الأحمر الغامق */
+  background: #FFF5E1; /* خلفية فاتحة لزيادة الوضوح */
+  color: #A52A2A;
+  font-weight: 600;
+}
+
+.shopcategory-indexSort p span {
+  font-weight: 600;
+  color: #A52A2A; /* لون أحمر غامق */
+}
+
+.shopcattegory-products {
+  margin: 20px 170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 80px;
+}
+
+.shopcategory-loadmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+  width: 233px;
+  height: 69px;
+  border-radius: 75px;
+  background: linear-gradient(135deg, #A52A2A, #7A1E1E); /* تدرج أحمر غامق */
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.shopcategory-loadmore:hover {
+  background: #7A1E1E; /* لون أغمق عند التحويم */
+}

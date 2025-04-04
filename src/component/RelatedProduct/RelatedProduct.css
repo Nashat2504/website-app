@@ -1,0 +1,29 @@
+.relatedproducts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+
+.relatedproduct h1 {
+    color: #FFD700; /* لون ذهبي لإبراز العنوان */
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.relatedproduct hr {
+    width: 200px;
+    height: 3px;
+    border-radius: 10px;
+    background: #8B0000; /* أحمر غامق متناسق مع الناف بار */
+}
+
+.relatedproduct-item {
+    margin-top: 50px;
+    display: flex;
+    flex: 1 1 calc(33.333% - 20px);
+    gap: 30px;
+    box-sizing: border-box;
+}
