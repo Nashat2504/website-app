@@ -1,19 +1,17 @@
 import React from 'react'
 import "../Hero/Hero.css"
-import hand_icon from "../Assets/hand_icon.png"
 import hero_image from "../Assets/hero_image.png"
 
 const Hero = () => {
   return (
     <div className='hero'>
         <div className='hero-left'>
-            <h2>NEW ARRIVALS ONLY</h2>
             <div className='hero-hand-icon'>
-                <p className='p'>new</p>
-                <img src={hand_icon} alt=''/>
+                <p className='p'></p>
+                
             </div>
-            <p>collections</p>
-            <p>for everyone</p>
+        
+            
         </div>
         
         <div className='hero-right'>

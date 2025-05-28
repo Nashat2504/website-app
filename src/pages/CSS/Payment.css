@@ -1,0 +1,160 @@
+/* CSS/Payment.css */
+
+.payment-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  .payment-form {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .left-section {
+    flex: 2;
+    padding: 30px;
+    border-right: 1px solid #eee;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  .billing h2, .right-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  .card-icons {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .card-icons img {
+    width: 40px;
+    height: 25px;
+    object-fit: contain;
+  }
+  
+  .checkout-btn {
+    background-color: #A52A2A;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .checkout-btn:hover {
+    background-color:#923434 ;
+    animation-play-state: running;
+  }
+  
+  .order-summary {
+    margin-top: 20px;
+  }
+  
+  .summary-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .summary-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 4px;
+  }
+  
+  .summary-item div {
+    flex: 1;
+  }
+  
+  .summary-item p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .summary-total {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+  }
+  
+  /* Style for the payment section */
+  .payment-form h2 {
+    margin-top: 30px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .payment-form {
+      flex-direction: column;
+    }
+    
+    .left-section {
+      border-right: none;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .row {
+      flex-direction: column;
+      gap: 0;
+    }
+  }

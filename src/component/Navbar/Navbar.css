@@ -120,3 +120,51 @@
     margin-top: -15px;
     right: auto;
 }
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    height: 50px;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 20px;
+    width: 200px;
+  }
+  
+  .search-bar button {
+    background: none;
+    border: none;
+    color: #a51414;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .profile-icon {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 45px;
+    height: 45px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  .profile-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+  }
+  
+  .profile-icon:hover {
+    transform: scale(1.1);
+    border-color: #d77058; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  
